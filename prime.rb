@@ -1,5 +1,13 @@
 # Add  code here!
 def prime(number)
-  (-1..2).none? {|divisor| n % divisor == 0 }
+   n = 2
+   if number > 1
+     range = (n..-1).to_a
+     range.none? do |num_to_test|
+
+       number % num_to_test == 0
+     end
+   else false
+   end
 
 end
