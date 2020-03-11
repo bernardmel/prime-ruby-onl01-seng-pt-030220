@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(number)
+def prime?(number)
    n = 2
    if number > 1
      range = (n..-1).to_a
